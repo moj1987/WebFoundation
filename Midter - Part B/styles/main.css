@@ -1,0 +1,143 @@
+* {
+  /* Universal reset: */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: white;
+}
+
+header,
+footer,
+article,
+section,
+hgroup,
+nav,
+figure {
+  /* Giving a display value to the HTML5 rendered elements: */
+  display: block;
+}
+
+/* Body: */
+body {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid grey;
+  background-color: aliceblue;
+}
+
+/* Header: */
+header {
+  color: fuchsia;
+  font-style: italic;
+  border-bottom: 5px solid black;
+}
+
+header img {
+  border: 2px solid black;
+  border-radius: 1em;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+header h1 {
+  text-shadow: 2px 2px coral;
+  color: black;
+}
+
+header h2 {
+  color: red;
+  padding-bottom: .5em;
+}
+
+/* Image below title: */
+#topImage {
+  clear: both;
+  object-fit: fill;
+  width: 100%;
+}
+#topImageDiv{
+    clear: both;
+    object-fit: fill;
+}
+
+/* h: */
+h1 {
+  font-size: 33px;
+  color: #330014;
+}
+h2 {
+  font-size: 20px;
+  color: #99003d;
+}
+h3 {
+  font-size: 15px;
+  color: #ff0066;
+}
+/* Undorderd list: */
+ul {
+  padding: 0 0 0.25em 1.25em;
+}
+
+/* Body: */
+body section {
+  float: left;
+  width: 66%;
+}
+body aside {
+  float: left;
+  width: 30%;
+  line-height: 1.5em;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+/* Paragraph: */
+main p {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+p {
+  color: dimgray;
+}
+
+/* Quote: */
+main blockquote {
+  padding: 0 2em;
+  font-style: italic;
+}
+
+/* Links: */
+section a {
+  color: chartreuse;
+}
+
+aside a {
+  color: aqua;
+  font-weight: bold;
+}
+
+section a:hover {
+  color: blueviolet;
+}
+
+aside a:hover {
+  color: pink;
+}
+
+/* Footer: */
+footer {
+  clear: both;
+  font-size: 12px;
+  text-align: center;
+  padding: 1em 0;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+}

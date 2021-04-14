@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- The new doctype -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Good movies</title>
+    <link rel="icon" type="image/ico" href="../images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+  </head>
+  <body id="mailBody">
+    <!-- Defining the #page section with the section tag -->
+    <header>
+      <!-- Defining the header section of the page with the appropriate tag -->
+      <hgroup>
+        <h1>The Classics</h1>
+        <h3>The movies to rule them all</h3>
+      </hgroup>
+      <nav class="clear">
+        <!-- The nav link semantically marks your main site navigation -->
+        <ul>
+          <li><a href="#article1">Mail</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside class="mailAside">
+      <img src="../images/email.png" alt="email picture" />
+    </aside>
+
+    <section class="mailSection">
+      <!-- A new section with the form -->
+      <h2>Subscribe</h2>
+      <div class="line"></div>
+      <!-- Dividing line -->
+      <article id="article1">
+        <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
+        <h2>Information</h2>
+        <a class="go_up up" href="../index.html">&nbsp; &nbsp;&Lt;</a>
+        <div class="line"></div>
+        <div class="articleBody clear">
+          <form id="email_form" action="scripts/submit.php" method="post">
+            <p>Wrie the stuff or not. Whatevs bruh!</p>
+            Name:<input type="text" name="name" autofocus /><br /><br />
+            Address:<input type="text" name="address" /><br /><br />
+            Phone number:<input type="text" name="phone" /><br /><br />
+
+            <fieldset>
+              <legend>How often to recieve email from us?</legend>
+              <input type="radio" name="frequency" id="daily" value="daily" />
+              <label for="daily">Daily</label><br />
+              <input
+                type="radio"
+                name="frequency"
+                id="monthly"
+                value="monthly"
+              />
+              <label for="monthly">Monthly</label><br />
+              <input
+                type="radio"
+                name="frequency"
+                id="important"
+                value="important"
+              />
+              <label for="important">Only important</label><br />
+            </fieldset>
+
+            What genre do you like?<br />
+            <input type="checkbox" name="action" id="action" value="Action" />
+            <label for="action">Action</label><br />
+            <input type="checkbox" name="comedy" id="comedy" value="comedy" />
+            <label for="comedy">Comedy</label><br />
+            <input type="checkbox" name="horror" id="horror" value="horror" />
+            <label for="horror">Horror</label><br />
+
+            AGE:<br />
+            <select name="age_group">
+              <optgroup label="Age group">
+                <option value="ny10">18-29</option>
+                <option value="ny12">30-39</option>
+                <option value="ny16">40-59</option>
+                <option value="ny16">60+</option>
+              </optgroup></select
+            ><br />
+            Comments:<br />
+            <textarea
+              name="comments"
+              placeholder="If you have any comments, please enter them here."
+            ></textarea
+            ><br />
+            <input type="submit" id="submitButton" value="Register" />
+            <input type="reset" id="resetButton" />
+          </form>
+        </div>
+      </article>
+      <!-- Article 1 end -->
+    </section>
+
+    <footer>
+      <!-- Marking the footer section -->
+      <div class="line"></div>
+
+      <!-- Change the copyright notice -->
+
+      <div>Copyright 2021 - Mojtaba Abbasszadeh</div>
+    </footer>
+
+    <!-- Closing the #page section -->
+  </body>
+</html>

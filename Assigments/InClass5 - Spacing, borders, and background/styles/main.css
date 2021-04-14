@@ -48,12 +48,15 @@ main h1{
     border-radius: 10px;
     box-shadow: 2px 2px 3px 3px black;
     background-color: white;
-    
-    /*border-bottom:  3px solid #931420;
-    border-top:  3px solid #931420;*/
     font-size: 150%;
     padding-top: .3em;
     padding-bottom: .3em;
+    
+    
+    /* Heading for part 1
+    border-bottom:  3px solid #931420;
+    border-top:  3px solid #931420;*/
+   
 }
 
 main h2{
